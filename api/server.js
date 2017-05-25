@@ -22,5 +22,5 @@ let shutdown = () => {
 process.on('SIGTERM', shutdown); // ctrl c
 process.on('SIGINT', shutdown); // ctrl z
 process.on('uncaughtException', (err) => {
-  console.log(err.stack);
+  console.log(err.stack);// eslint-disable-line
 });

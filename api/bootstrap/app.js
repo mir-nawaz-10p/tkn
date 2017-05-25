@@ -6,7 +6,6 @@ const responseTime = require('response-time');
 const serveStatic = require('serve-static');
 const path = require('path');
 const routes = require('../routes');
-const lib = require('../../lib');
 const middleware = require('../../lib/middleware');
 
 module.exports = class {
@@ -33,7 +32,7 @@ module.exports = class {
 
   static startHttpServer(app) {
     this.httpServer = app.listen(3004, function() {
-      console.log('start -------------');
+      console.log('start -------------');// eslint-disable-line
     });
   }
 

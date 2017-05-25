@@ -28,8 +28,8 @@
   },
   "scripts": {
     "start": "node api/server.js",
-    "lint": "./node_modules/.bin/eslint . --cache --ignore-pattern .gitignore",
-    "fix": "./node_modules/.bin/eslint . --fix --cache --ignore-pattern .gitignore",
+    "lint": "./node_modules/.bin/eslint . --cache --ignore-path .gitignore",
+    "fix": "./node_modules/.bin/eslint . --fix --cache --ignore-path .gitignore",
     "doc": "./node_modules/.bin/apidoc -i api/routes/ -o api/static/doc",
     "migrate": "./node_modules/.bin/sequelize db:migrate",
     "migrate-undo": "./node_modules/.bin/sequelize db:migrate:undo",
