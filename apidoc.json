@@ -1,0 +1,12 @@
+{
+  "title": "TnK",
+  "description": "TnK",
+  "version": "1.0.0",
+  "sampleUrl": "https://localhost:3004/",
+  "header": {
+    "title": "TnKTKN"
+  },
+  "footer": {
+    "title": "TKN ©"
+  }
+}
