@@ -1,10 +1,10 @@
 {
-  "title": "TnK",
-  "description": "TnK",
+  "title": "TKN",
+  "description": "Time and Knowledge Nazrana",
   "version": "1.0.0",
-  "sampleUrl": "https://localhost:3004/",
+  "sampleUrl": "http://localhost:3004/",
   "header": {
-    "title": "TnKTKN"
+    "title": "TKN"
   },
   "footer": {
     "title": "TKN ©"

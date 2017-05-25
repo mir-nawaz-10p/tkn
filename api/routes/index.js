@@ -11,10 +11,10 @@ module.exports = class {
 
   static setup(app, router) {
 
-    // **** Auth Routes ******* //
-    require('./auth').setup(router);
+    // **** User Routes ******* //
+    require('./user').setup(router);
 
-    app.use(router);
+    app.use('/api', router);
 
   }
 };

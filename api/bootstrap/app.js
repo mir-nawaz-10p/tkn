@@ -22,6 +22,8 @@ module.exports = class {
       extended: true
     }));
 
+    app.use(middleware.responseLog);
+
     routes.setup(app, express.Router());
 
     app.use(middleware.notFoundHandler);
